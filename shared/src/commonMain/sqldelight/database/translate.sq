@@ -1,0 +1,25 @@
+CREATE TABLE historyEntity(
+id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+fromLanguage TEXT NOT NULL,
+toLanguage TEXT NOT NULL,
+fromText TEXT NOT NULL,
+toText TEXT NOT NULL,
+timeStamp INTEGER NOT NULL
+);
+
+getHistoty:
+SELECT *
+FROM historyEntity
+ORDER BY timeStamp DESC;
+
+insertHistoryEntity:
+INSERT OR REPLACE
+INTO historyEntity(
+id,
+fromLanguage,
+toLanguage,
+fromText,
+toText,
+timeStamp
+)
+VALUES(?,?,?,?,?,?);
