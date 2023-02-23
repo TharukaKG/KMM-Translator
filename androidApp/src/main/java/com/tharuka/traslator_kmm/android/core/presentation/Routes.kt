@@ -1,5 +1,6 @@
 package com.tharuka.traslator_kmm.android.core.presentation
 
 object Routes {
-    val TRANSLATE = "translate"
+    const val TRANSLATE = "translate"
+    const val VOICE_TO_TEXT = "voice_to_text"
 }

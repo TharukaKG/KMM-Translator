@@ -5,7 +5,7 @@ import com.tharuka.traslator_kmm.R
 import com.tharuka.traslator_kmm.core.domain.language.Language
 import java.util.*
 
-actual class UiLanguage(
+actual data class UiLanguage(
     @DrawableRes val drawableRes: Int,
     actual val language: Language
 ) {
