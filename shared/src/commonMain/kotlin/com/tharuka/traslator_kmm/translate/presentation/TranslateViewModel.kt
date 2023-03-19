@@ -11,10 +11,11 @@ import com.tharuka.traslator_kmm.translate.domain.translate.TranslationException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 
-class TranslateViewModel(
+class  TranslateViewModel(
     private val translate: Translate,
     private val historyDataSource: HistoryDataSource,
     private val coroutineScope: CoroutineScope?

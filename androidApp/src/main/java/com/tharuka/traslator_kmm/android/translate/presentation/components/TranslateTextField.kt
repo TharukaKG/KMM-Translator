@@ -166,7 +166,7 @@ fun IdleTranslateTextField(
         )
         if (fromText.isEmpty() && !isFocused) {
             Text(
-                text = stringResource(id = com.tharuka.traslator_kmm.android.R.string.enter_a_text_to_translate)
+                text = stringResource(id = R.string.enter_a_text_to_translate)
             )
         }
         ProgressButton(

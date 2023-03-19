@@ -13,6 +13,7 @@ extension TranslateScreen{
     @MainActor class IOSTranslateViewModel: ObservableObject{
         private var historyDatSource: HistoryDataSource
         private var translateUseCase: Translate
+    
         
         private let viewModel: TranslateViewModel
         
@@ -40,6 +41,7 @@ extension TranslateScreen{
         }
         
         func StartObserving(){
+            
             handle = viewModel.state.subscribe(onCollect:{ state in
                 if let state = state{
                     self.state = state

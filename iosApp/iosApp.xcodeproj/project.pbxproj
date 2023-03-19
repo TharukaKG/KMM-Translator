@@ -14,8 +14,8 @@
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
 		DC1A7A2A299A82510092A8C1 /* TranslateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1A7A29299A82510092A8C1 /* TranslateScreen.swift */; };
 		DC1A7A2C299A82870092A8C1 /* IOSTranslateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1A7A2B299A82870092A8C1 /* IOSTranslateViewModel.swift */; };
+		DC270BC929B4EF0300151789 /* TextToSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC270BC829B4EF0300151789 /* TextToSpeech.swift */; };
 		DC63F2DF29973FFA0068B777 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC63F2DE29973FFA0068B777 /* Color.swift */; };
-		DC810585299DEC8200F07F9B /* TextToSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC810584299DEC8200F07F9B /* TextToSpeech.swift */; };
 		DC810587299E1E4100F07F9B /* TranslateHistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC810586299E1E4100F07F9B /* TranslateHistoryItem.swift */; };
 		DC861272299CE91300B65DD6 /* GradientSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC861271299CE91300B65DD6 /* GradientSurface.swift */; };
 		DC86327B29A09D0000B98332 /* VoiceRecorderDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC86327A29A09D0000B98332 /* VoiceRecorderDisplay.swift */; };
@@ -44,8 +44,8 @@
 		AD2D3B4BD93878F6378E9C2E /* Pods_iosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1A7A29299A82510092A8C1 /* TranslateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateScreen.swift; sourceTree = "<group>"; };
 		DC1A7A2B299A82870092A8C1 /* IOSTranslateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSTranslateViewModel.swift; sourceTree = "<group>"; };
+		DC270BC829B4EF0300151789 /* TextToSpeech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeech.swift; sourceTree = "<group>"; };
 		DC63F2DE29973FFA0068B777 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		DC810584299DEC8200F07F9B /* TextToSpeech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextToSpeech.swift; path = ../../../../../../../../Documents/TextToSpeech.swift; sourceTree = "<group>"; };
 		DC810586299E1E4100F07F9B /* TranslateHistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateHistoryItem.swift; sourceTree = "<group>"; };
 		DC861271299CE91300B65DD6 /* GradientSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientSurface.swift; sourceTree = "<group>"; };
 		DC86327A29A09D0000B98332 /* VoiceRecorderDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecorderDisplay.swift; sourceTree = "<group>"; };
@@ -202,7 +202,7 @@
 				DCD093662998C24000419853 /* components */,
 				DC1A7A29299A82510092A8C1 /* TranslateScreen.swift */,
 				DC1A7A2B299A82870092A8C1 /* IOSTranslateViewModel.swift */,
-				DC810584299DEC8200F07F9B /* TextToSpeech.swift */,
+				DC270BC829B4EF0300151789 /* TextToSpeech.swift */,
 			);
 			path = presantation;
 			sourceTree = "<group>";
@@ -358,6 +358,7 @@
 				DC9AEB9E299D2CEC009B49A4 /* ProgressButton.swift in Sources */,
 				DCCF902129A5C87C0062B734 /* VoiceToTextScreen.swift in Sources */,
 				DC1A7A2C299A82870092A8C1 /* IOSTranslateViewModel.swift in Sources */,
+				DC270BC929B4EF0300151789 /* TextToSpeech.swift in Sources */,
 				DC86327E29A0A11600B98332 /* MicrophonePowerObserver.swift in Sources */,
 				DC861272299CE91300B65DD6 /* GradientSurface.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
@@ -369,7 +370,6 @@
 				DCD0936E2998D7D000419853 /* SwapLanguageButton.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 				DC1A7A2A299A82510092A8C1 /* TranslateScreen.swift in Sources */,
-				DC810585299DEC8200F07F9B /* TextToSpeech.swift in Sources */,
 				DC63F2DF29973FFA0068B777 /* Color.swift in Sources */,
 				DC810587299E1E4100F07F9B /* TranslateHistoryItem.swift in Sources */,
 				DCCDE1B329A385C500F2E2F3 /* IOSVoiceToTextViewModel.swift in Sources */,
